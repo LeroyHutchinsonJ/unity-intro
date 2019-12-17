@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class BasicBehaviour : MonoBehaviour
 {
-    public Text screenWords;
+    public Text text;
 
     // Start is called before the first frame update
     void Start()
     {
-        screenWords.text = "Hello World";
+        text.text = "Hello World";
     }
 
    
